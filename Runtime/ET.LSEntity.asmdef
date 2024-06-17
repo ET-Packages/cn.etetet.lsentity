@@ -1,0 +1,18 @@
+{
+    "name": "ET.LSEntity",
+    "rootNamespace": "",
+    "references": [
+        "GUID:756335c0388f7114790e504ed368ae1d",
+        "GUID:a442d4d6fba70b549ae021beaba09d45",
+        "GUID:9ef2053bcf13a254ab3940a767f7b1a5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
