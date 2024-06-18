@@ -3,14 +3,6 @@ using System.Collections.Generic;
 
 namespace ET
 {
-    [UniqueId(-1, 1)]
-    public static class LSQueneUpdateIndex
-    {
-        public const int None = -1;
-        public const int LSUpdate = 0;
-        public const int Max = 1;
-    }
-    
     [CodeProcess]
     public class LSEntitySystemSingleton: Singleton<LSEntitySystemSingleton>, ISingletonAwake
     {
@@ -20,7 +12,7 @@ namespace ET
         
         public void Awake()
         {
-            this.TypeSystems = new(LSQueneUpdateIndex.Max);
+            this.TypeSystems = new();
             foreach (Type type in CodeTypes.Instance.GetTypes(typeof (LSEntitySystemAttribute)))
             {
                 SystemObject obj = (SystemObject)Activator.CreateInstance(type);
@@ -32,10 +24,9 @@ namespace ET
 
                 TypeSystems.OneTypeSystems oneTypeSystems = this.TypeSystems.GetOrCreateOneTypeSystems(iSystemType.Type());
                 oneTypeSystems.Map.Add(iSystemType.SystemType(), obj);
-                int index = iSystemType.GetInstanceQueueIndex();
-                if (index > LSQueneUpdateIndex.None && index < LSQueneUpdateIndex.Max)
+                if (iSystemType is IClassEventSystem)
                 {
-                    oneTypeSystems.QueueFlag[index] = true;
+                    oneTypeSystems.ClassType.Add(iSystemType.SystemType());
                 }
             }
             

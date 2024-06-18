@@ -69,7 +69,7 @@ namespace ET
                 return;
             }
 
-            if (oneTypeSystems.QueueFlag[LSQueneUpdateIndex.LSUpdate])
+            if (oneTypeSystems.ClassType.Contains(typeof(ILSUpdateSystem)))
             {
                 lsWorld.RegisterSystem(this);
             }

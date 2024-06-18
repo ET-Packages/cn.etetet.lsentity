@@ -30,11 +30,6 @@ namespace ET
             return typeof(ILSRollbackSystem);
         }
 
-        int ISystemType.GetInstanceQueueIndex()
-        {
-            return InstanceQueueIndex.None;
-        }
-
         protected abstract void LSRollback(T self);
     }
 }

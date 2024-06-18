@@ -6,7 +6,7 @@ namespace ET
     {
     }
     
-    public interface ILSUpdateSystem: ISystemType
+    public interface ILSUpdateSystem: ISystemType, IClassEventSystem
     {
         void Run(LSEntity o);
     }
@@ -27,11 +27,6 @@ namespace ET
         Type ISystemType.SystemType()
         {
             return typeof(ILSUpdateSystem);
-        }
-
-        int ISystemType.GetInstanceQueueIndex()
-        {
-            return LSQueneUpdateIndex.LSUpdate;
         }
 
         protected abstract void LSUpdate(T self);
