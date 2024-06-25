@@ -12,9 +12,5 @@
     "type": "git",
     "url": "https://github.com/egametang/ET"
   },
-  "relatedPackages": {},
-  "gitDependencies": {
-    "cn.etetet.core": "https://github.com/ET-Packages/cn.etetet.core.git#0.0.1",
-    "cn.etetet.truesync": "https://github.com/ET-Packages/cn.etetet.truesync.git#0.0.1"
-  }
+  "relatedPackages": {}
 }
