@@ -2,10 +2,10 @@
     "name": "ET.LSEntity",
     "rootNamespace": "",
     "references": [
-        "GUID:a442d4d6fba70b549ae021beaba09d45",
-        "GUID:9ef2053bcf13a254ab3940a767f7b1a5",
-        "GUID:c8c005329ad2fa14e8b04281f65644af",
-        "GUID:e77b8a893963d69498cdd32fb9376f23"
+        "ET.TrueSync",
+        "ET.Core",
+        "ET.SourceGeneratorAttribute",
+        "ET.MemoryPack"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

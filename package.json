@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "cn.etetet.lsentity",
   "displayName": "ET.LSEntity",
   "version": "0.0.3",
@@ -14,8 +14,9 @@
   },
   "relatedPackages": {},
   "dependencies": {
-    "cn.etetet.core": "0.0.7",
-    "cn.etetet.truesync": "0.0.1"
+    "cn.etetet.core": "0.0.16",
+    "cn.etetet.truesync": "0.0.2",
+    "cn.etetet.memorypack": "1.10.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@ET-Packages"
