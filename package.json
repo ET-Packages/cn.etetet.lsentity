@@ -1,9 +1,9 @@
 {
   "name": "cn.etetet.lsentity",
   "displayName": "ET.LSEntity",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "unity": "2022.3",
-  "description": "et lsentity",
+  "description": "帧同步的Entity实现，提供了lsupdate，lsentity lsworld等功能",
   "author": {
     "name": "tanghai",
     "url": "https://github.com/egametang/ET"
@@ -14,8 +14,8 @@
   },
   "relatedPackages": {},
   "dependencies": {
-    "cn.etetet.core": "0.0.16",
-    "cn.etetet.truesync": "0.0.2",
+    "cn.etetet.core": "0.0.196",
+    "cn.etetet.truesync": "0.0.3",
     "cn.etetet.memorypack": "1.10.0"
   },
   "publishConfig": {
