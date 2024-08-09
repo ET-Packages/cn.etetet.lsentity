@@ -1,7 +1,7 @@
 {
   "name": "cn.etetet.lsentity",
   "displayName": "ET.LSEntity",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "unity": "2022.3",
   "description": "帧同步的Entity实现，提供了lsupdate，lsentity lsworld等功能",
   "author": {
@@ -14,7 +14,7 @@
   },
   "relatedPackages": {},
   "dependencies": {
-    "cn.etetet.core": "0.0.196",
+    "cn.etetet.core": "0.0.20",
     "cn.etetet.truesync": "0.0.3",
     "cn.etetet.memorypack": "1.10.0"
   },
