@@ -1,9 +1,9 @@
 {
   "name": "cn.etetet.lsentity",
   "displayName": "ET.LSEntity",
-  "version": "0.0.6",
+  "version": "2.0.0",
   "unity": "2022.3",
-  "description": "å¸§åŒæ­¥çš„Entityå®ç°ï¼Œæä¾›äº†lsupdateï¼Œlsentity lsworldç­‰åŠŸèƒ½",
+  "description": "Ö¡Í¬²½µÄEntityÊµÏÖ£¬Ìá¹©ÁËlsupdate£¬lsentity lsworldµÈ¹¦ÄÜ",
   "author": {
     "name": "tanghai",
     "url": "https://github.com/egametang/ET"
@@ -14,7 +14,7 @@
   },
   "relatedPackages": {},
   "dependencies": {
-    "cn.etetet.core": "0.0.20",
+    "cn.etetet.core": "2.0.5",
     "cn.etetet.truesync": "0.0.3",
     "cn.etetet.memorypack": "1.10.0"
   },
