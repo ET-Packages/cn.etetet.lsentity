@@ -1,9 +1,9 @@
 {
   "name": "cn.etetet.lsentity",
   "displayName": "ET.LSEntity",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "unity": "2022.3",
-  "description": "帧同步的Entity实现，提供了lsupdate，lsentity lsworld等功能",
+  "description": "帧同锟斤拷锟斤拷Entity实锟街ｏ拷锟结供锟斤拷lsupdate锟斤拷lsentity lsworld锟饺癸拷锟斤拷",
   "author": {
     "name": "tanghai",
     "url": "https://github.com/egametang/ET"

@@ -3,7 +3,7 @@
         <TargetFramework>net8.0</TargetFramework>
         <RootNamespace>ET</RootNamespace>
         <LangVersion>12</LangVersion>
-        <AssemblyName>ET.Loader</AssemblyName>
+        <AssemblyName>ET.LSEntity</AssemblyName>
     </PropertyGroup>
     <PropertyGroup>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
@@ -31,7 +31,7 @@
         </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="$(SolutionDir)Packages\cn.etetet.core\DotNet~\ET.Core\ET.Core.csproj" />
+      <ProjectReference Include="$(SolutionDir)Packages\cn.etetet.core\DotNet~\ET.Core.csproj" />
       <ProjectReference Include="..\..\cn.etetet.truesync\DotNet~\ET.TrueSync.csproj" />
     </ItemGroup>
 </Project>
